@@ -1,7 +1,7 @@
 {
   "name": "MinibloxShaders",
   "version": "7.5.3",
-  "description": "shaders for miniblox"
+  "description": "gives shaders to miniblox"
   "permissions": ["declarativeNetRequest", "scripting", "tabs"],
   "host_permissions": ["https://miniblox.online/*"],
   "declarative_net_request": {"rule_resources": [{"id": "ruleset_1", "enabled": true, "path": "rules.json"}]},
