@@ -1,6 +1,6 @@
 {
   "name": "MinibloxShaders",
-  "version": "1.0",
+  "version": "2",
   "description": "gives shaders to miniblox",
   "permissions": ["declarativeNetRequest", "scripting", "tabs"],
   "host_permissions": ["https://miniblox.online/*"],
