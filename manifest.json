@@ -1,11 +1,11 @@
 {
-  "manifest_version": 3,
   "name": "MinibloxShaders",
-  "version": "1.0.0",
-  "description": "gives shaders to miniblox",
-  "icons": {
-    "48": "NightRise.png",
-    "128": "NightRise.png
-    "
-  }
+  "version": "1.0",
+  "description": "gives miniblox shaders",
+  "manifest_version": 3,
+  "permissions": ["declarativeNetRequest", "scripting", "tabs"],
+  "host_permissions": ["https://miniblox.online/*"],
+  "declarative_net_request": {"rule_resources": [{"id": "ruleset_1", "enabled": true, "path": "rules.json"}]},
+	"content_scripts": [{"matches": ["https://miniblox.online/*"], "all_frames": true, "js": ["content.js"], "run_at": "document_start"}],
+	"icons": {"16": "NightRise.png", "48": "NightRise.png", "128": "NightRise.png"}
 }
