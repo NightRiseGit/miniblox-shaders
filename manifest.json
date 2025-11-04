@@ -1,0 +1,10 @@
+{
+  "name": "MinibloxShaders",
+  "version": "7.5.3",
+  "description": "shaders for miniblox"
+  "permissions": ["declarativeNetRequest", "scripting", "tabs"],
+  "host_permissions": ["https://miniblox.online/*"],
+  "declarative_net_request": {"rule_resources": [{"id": "ruleset_1", "enabled": true, "path": "rules.json"}]},
+	"content_scripts": [{"matches": ["https://miniblox.online/*"], "all_frames": true, "js": ["content.js"], "run_at": "document_start"}],
+	"icons": {"16": "NightRise.png", "48": "NightRise.png", "128": "NightRise.png"}
+}
