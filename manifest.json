@@ -7,5 +7,4 @@
   "host_permissions": ["https://miniblox.online/*"],
   "declarative_net_request": {"rule_resources": [{"id": "ruleset_1", "enabled": true, "path": "rules.json"}]},
 	"content_scripts": [{"matches": ["https://miniblox.online/*"], "all_frames": true, "js": ["content.js"], "run_at": "document_start"}],
-	"icons": {"48": "channels4_profile", "128": "channels4_profile"}
 }
